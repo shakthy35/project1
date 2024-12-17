@@ -1,0 +1,83 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    background-image: url(tipper\ lorry.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh; /* Ensure full height on all screens */
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: black;
+}
+
+h4 {
+    font-size: 1rem;
+    color: white;
+    line-height: 1.6;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+}
+
+.section {
+    padding: 50px 20px;
+}
+
+#about p {
+    line-height: 1.8;
+    text-align: justify;
+}
+
+#spares .card {
+    margin: 10px auto;
+    max-width: 300px;
+}
+
+#contact .form-control {
+    border-radius: 5px;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+    .banner h1 {
+        font-size: 2rem;
+    }
+
+    .banner h4 {
+        font-size: 0.9rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.9rem;
+    }
+
+    #about p {
+        font-size: 0.9rem;
+    }
+
+    #spares .card {
+        margin: 20px auto;
+    }
+}
